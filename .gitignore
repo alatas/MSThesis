@@ -1,3 +1,11 @@
+metadata/*
+!metadata/.blank
+!metadata/expert*
+dataset/*
+!dataset/.blank
+model/*
+!model/.blank
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +135,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/
+_misc_*
+report/*
+!report/.blank
